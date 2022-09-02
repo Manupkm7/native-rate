@@ -1,7 +1,7 @@
 import React from "react";
 import { View, } from "react-native";
 import Constants from "expo-constants"
-import RepositoryList from "./RepositoriesList.jsx";
+import RepositoryList from "./List/RepositoriesList.jsx";
 
 const Main = () => {
 return (

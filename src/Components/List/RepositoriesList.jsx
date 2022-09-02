@@ -1,6 +1,6 @@
 import React from 'react'
 import { FlatList } from 'react-native'
-import repositories from '../Data/Repositories'
+import repositories from '../../Data/Repositories'
 import RepositoryItem from './RepositoryItem'
 
 const RepositoryList = () => {

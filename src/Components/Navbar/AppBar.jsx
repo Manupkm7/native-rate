@@ -47,9 +47,12 @@ const AppBarTab = ({ children, to }) => {
 const AppBar = () => {
   return (
     <View style={styles.container}>
-      <ScrollView style={styles.scroll}>
-        <AppBarTab  active to="/">
+      <ScrollView horizontal style={styles.scroll}>
+        <AppBarTab to="/">
           Repositories
+        </AppBarTab>
+        <AppBarTab to="/login">
+          Login
         </AppBarTab>
       </ScrollView>
     </View>
